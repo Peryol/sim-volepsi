@@ -30,10 +30,14 @@ if(NOT ${DEP_NAME}_FOUND OR LIBOTE_DEV)
                        -DVERBOSE_FETCH=${VERBOSE_FETCH}
                        -DENABLE_CIRCUITS=ON
                        -DENABLE_MRR=ON
+                       -DENABLE_MRR_TWIST=OFF
+                       -DENABLE_MR=ON
+                       -DENABLE_MR_KYBER=OFF
                        -DENABLE_IKNP=ON
                        -DENABLE_SOFTSPOKEN_OT=ON
                        -DENABLE_BITPOLYMUL=${VOLE_PSI_ENABLE_BITPOLYMUL}
                        -DENABLE_SILENTOT=ON
+                       -DENABLE_KKRT=ON
                        -DENABLE_SILENT_VOLE=ON
                        -DENABLE_SSE=${VOLE_PSI_ENABLE_SSE}
                        -DENABLE_BOOST=${VOLE_PSI_ENABLE_BOOST}
